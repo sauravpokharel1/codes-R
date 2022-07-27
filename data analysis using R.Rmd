@@ -342,8 +342,6 @@ Nbootstrap<- 200
 
 slope_model<-rep(NA,Nbootstrap)
 
-set.seed(21050352)
-
 for(i in seq_len(Nbootstrap)){
   index<-sample(seq_along(sample$price),size=length(sample$price),replace=TRUE)   
   
