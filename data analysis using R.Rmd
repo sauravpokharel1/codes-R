@@ -1,31 +1,8 @@
----
-title: 'Exam Template: Statistical Inference'
-author: "21050352"
-date: 'Jan 2022: Sep21 run'
-output:
-  word_document: default
-  html_document: default
----
-
 ```{r setup, include=FALSE}
 # do not change these options
 knitr::opts_chunk$set(echo = TRUE,warning = FALSE)
 knitr::opts_chunk$set(error = TRUE,comment=NA) # do not edit this line.
 ```
-
-# Instructions to students
-
-You should only use the file Exam_template.Rmd provided on blackboard and you should load this file from your scripts folder / directory.
-
-Save this template as your studentID.Rmd; you will upload this file as your submission. Change the information on line 3 of this file – changing the author information to your **student ID**. Do not change the authorship to your name.
-
-Ensure that you save your data into your data folder (as discussed in class). You may use the files mypackages.R and helperFunctions.R from blackboard. If you use these files, do not alter them. If you wish to create additional files for custom functions that you have prepared in advance, make sure that you upload these in addition to your .Rmd file and your compiled output file.
-
-Your should knit this file to a document **Word** format.
-
-Any changes that you make to the data (e.g. variable name changes) should be made entirely within R.
-
-The subsubsections labelled **Answer:** indicate where you should put in your written Answers. The template also provides blank code chunks for you to complete your Answers; you may choose to add additional chunks if required.
 
 ```{r libraries, include=FALSE}
 # load required libraries / additional files
